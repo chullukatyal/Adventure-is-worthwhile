@@ -1,0 +1,197 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+#head{
+    color: black;
+}
+#pra{
+    color: #000000;
+}
+.header .logo {
+    font-size: 2rem;
+    color: #333;
+}
+
+.header .search-form {
+    display: flex;
+    align-items: center;
+}
+
+.header .search-form input[type="search"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.header .search-form .fas {
+    margin-left: -2rem;
+    cursor: pointer;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .icons .fas {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: url('https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/05/20172622/ce-travel.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 60vh;
+    text-align: center;
+}
+
+.home .content h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home .content p {
+    margin-bottom: 1.5rem;
+}
+
+.home .content .btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #f8f9fa;
+}
+
+.services .service-item {
+    text-align: center;
+}
+
+.services .service-item img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.services .service-item h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Packages Section */
+.packages {
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.packages .package-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.packages .package-item img {
+    width: 100%;
+    height: auto;
+}
+
+.packages .package-item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.packages .package-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.packages .package-item .btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+   
